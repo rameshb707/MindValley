@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96145C98-F361-4618-9EE6-E1BEB7A1BB69"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F601EB53-5591-4F27-B744-D0B1208EA2C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "displayChannels(channel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39500E13-5C06-404D-B018-24B229BE64EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "displayMedia(media:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16952D97-6760-4DFB-B024-1C98AF4E3144"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "displayCategories(categorie:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23F0F6DF-2E63-4987-B4DB-136917A12865"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValleyTests/MindValleyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "testChannelsSection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20938327-1093-40E6-9885-66517F9198C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValleyTests/MindValleyTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "testChannelsSection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE01C668-3C4B-452C-A975-114D3D770B09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "MindValleyHomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - f90e23eddc6ce561"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.loadingIndicator.getter : Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - 9a65be259bc85515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.loadingIndicator.setter : Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - 96b70f7bd1a0b162"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.loadingIndicator.modify : Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - dbf8507ec49e75bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.loadingIndicator.modify : Swift.Optional&lt;__C.UIActivityIndicatorView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - 8f9000efe2b0a04f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MindValley.MindValleyHomeViewController"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "AE01C668-3C4B-452C-A975-114D3D770B09 - d529b06ddb853912"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValley.MindValleyHomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MindValley.MindValleyHomeViewController&gt;"
+                  moduleName = "MindValley"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rameshb/Documents/MindValley/MindValley/MindValleyHomeScreen/ViewController/MindValleyHomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "311">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8E20D92-E395-4DDF-99EE-358FBD53D228"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21B0760E-F3AF-4909-84D0-894DFDBF12C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MindValley/Managers/RealmDBManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

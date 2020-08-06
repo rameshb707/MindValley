@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Bold.ttf">
+            <string>Gilroy-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SeriesCollectionViewCell" id="gTV-IL-0wX" customClass="SeriesCollectionViewCell" customModule="MindValley" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="296"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="270" height="296"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8iK-WH-ErP">
+                        <rect key="frame" x="0.0" y="0.0" width="270" height="172"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="172" id="gxu-rd-yW8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qI-DF-p34">
+                        <rect key="frame" x="0.0" y="181" width="270" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8iK-WH-ErP" secondAttribute="trailing" id="2vC-4I-BWt"/>
+                <constraint firstItem="6qI-DF-p34" firstAttribute="top" secondItem="8iK-WH-ErP" secondAttribute="bottom" constant="9" id="ACQ-eT-5q2"/>
+                <constraint firstItem="8iK-WH-ErP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Bjx-1H-dfh"/>
+                <constraint firstAttribute="trailing" secondItem="6qI-DF-p34" secondAttribute="trailing" id="GDT-Ha-Hjc"/>
+                <constraint firstItem="6qI-DF-p34" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GGS-AV-4ii"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6qI-DF-p34" secondAttribute="bottom" constant="5" id="kcV-kz-Fcr"/>
+                <constraint firstItem="8iK-WH-ErP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="q9B-T9-mkd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="270" height="296"/>
+            <connections>
+                <outlet property="seriesImageView" destination="8iK-WH-ErP" id="oh4-c2-abF"/>
+                <outlet property="seriesTitle" destination="6qI-DF-p34" id="SRt-3Y-Cih"/>
+            </connections>
+            <point key="canvasLocation" x="297.10144927536237" y="184.15178571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

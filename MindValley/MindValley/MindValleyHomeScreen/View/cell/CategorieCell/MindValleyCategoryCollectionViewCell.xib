@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Bold.ttf">
+            <string>Gilroy-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MindValleyCategoryCollectionViewCell" id="gTV-IL-0wX" customClass="MindValleyCategoryCollectionViewCell" customModule="MindValley" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="151"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-z3-W2w">
+                        <rect key="frame" x="5" y="5" width="304" height="141"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.58431372549019611" green="0.59607843137254901" blue="0.61568627450980395" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="b9Q-z3-W2w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="0Qy-VV-7EG"/>
+                <constraint firstAttribute="bottom" secondItem="b9Q-z3-W2w" secondAttribute="bottom" constant="5" id="0XQ-Db-Mxh"/>
+                <constraint firstItem="b9Q-z3-W2w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="AJv-VJ-tfK"/>
+                <constraint firstAttribute="trailing" secondItem="b9Q-z3-W2w" secondAttribute="trailing" constant="5" id="ama-mi-5JV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="314" height="151"/>
+            <connections>
+                <outlet property="categoryName" destination="b9Q-z3-W2w" id="4dX-oV-o27"/>
+            </connections>
+            <point key="canvasLocation" x="228.98550724637684" y="83.370535714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>

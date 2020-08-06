@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Bold.ttf">
+            <string>Gilroy-Bold</string>
+        </array>
+        <array key="Gilroy-Regular.ttf">
+            <string>Gilroy-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewEpisodesCollectionViewCell" id="gTV-IL-0wX" customClass="NewEpisodesCollectionViewCell" customModule="MindValley" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="292"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="292"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AuB-er-8F6">
+                        <rect key="frame" x="0.0" y="0.0" width="239" height="228"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="228" id="KOW-th-B7n"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWK-sd-xQD">
+                        <rect key="frame" x="0.0" y="238" width="239" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLH-Fm-PCL">
+                        <rect key="frame" x="0.0" y="267.5" width="239" height="13"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="AuB-er-8F6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GAx-9j-MmQ"/>
+                <constraint firstItem="oLH-Fm-PCL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GOx-H2-wEI"/>
+                <constraint firstItem="rWK-sd-xQD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HF2-Iv-bgd"/>
+                <constraint firstAttribute="trailing" secondItem="rWK-sd-xQD" secondAttribute="trailing" id="VHE-xy-xVI"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oLH-Fm-PCL" secondAttribute="bottom" constant="5" id="VjU-Hy-6bA"/>
+                <constraint firstItem="rWK-sd-xQD" firstAttribute="top" secondItem="AuB-er-8F6" secondAttribute="bottom" constant="10" id="W6M-IK-M3B"/>
+                <constraint firstItem="oLH-Fm-PCL" firstAttribute="top" secondItem="rWK-sd-xQD" secondAttribute="bottom" constant="12" id="dlQ-nb-A6H"/>
+                <constraint firstItem="AuB-er-8F6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fU3-L8-gf1"/>
+                <constraint firstAttribute="trailing" secondItem="oLH-Fm-PCL" secondAttribute="trailing" id="p7W-yb-urq"/>
+                <constraint firstAttribute="trailing" secondItem="AuB-er-8F6" secondAttribute="trailing" id="yxX-x0-wop"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="239" height="292"/>
+            <connections>
+                <outlet property="channelText" destination="oLH-Fm-PCL" id="xPc-SE-yHN"/>
+                <outlet property="mindValleyCourseImageView" destination="AuB-er-8F6" id="nt6-NN-8bv"/>
+                <outlet property="title" destination="rWK-sd-xQD" id="klQ-gv-1wp"/>
+            </connections>
+            <point key="canvasLocation" x="274.63768115942031" y="186.83035714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
